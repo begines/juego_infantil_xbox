@@ -1387,6 +1387,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1800092640}
+--- !u!1 &1925122845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1925122847}
+  - component: {fileID: 1925122846}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1925122846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925122845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3851b2107f4acff419931d13feb50de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteorito: {fileID: 0}
+  vigas: {fileID: 1808761486067894, guid: db25b8fcfd0646748bb9591a5ab4e718, type: 2}
+  tuerca1: {fileID: 1064897739454302, guid: 07b4229c39d9fd0419e07734d77605ee, type: 2}
+  tuerca2: {fileID: 1180428390997590, guid: b67e8983299313844a722def08b3304c, type: 2}
+  tuerca3: {fileID: 1910358983491434, guid: 9164f169ea44ca549829223bf15583a1, type: 2}
+  tuerca4: {fileID: 1511395676537436, guid: bff6397e4fe0e1445b530b884247a4c7, type: 2}
+  tuerca5: {fileID: 1248809661422828, guid: 5c9385a57f08e3f4881dd22bfeaaac57, type: 2}
+--- !u!4 &1925122847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925122845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.28202307, y: 0.1979258, z: -2.4902344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1940870684
 GameObject:
   m_ObjectHideFlags: 0
